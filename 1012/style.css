@@ -1,0 +1,73 @@
+ /* for the jumptron */
+.jumbotron {
+    background-color:  #000000;
+    color:  #f2f2f2;
+    padding: 100px 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* for navigation bar and logo to be fixed while srolling */
+/* bootstrap code */
+    .logo-small {
+        color: #333333
+;
+        font-size: 50px;
+      }
+      .logo {
+        color: #333333
+;
+        font-size: 200px;
+      }
+      .navbar {
+        margin-bottom: 0;
+        background-color: #333333
+;
+        z-index: 9999;
+        border: 0;
+        font-size: 12px !important;
+        line-height: 1.42857143 !important;
+        letter-spacing: 4px;
+        border-radius: 0;
+        font-family: Montserrat, sans-serif;
+      }
+      .navbar li a, .navbar .navbar-brand {
+        color: #fff !important;
+      }
+      .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: #333333
+ !important;
+        background-color: #fff !important;
+      }
+      .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff !important;
+      }
+      
+body {
+    background-color: #333333;
+    font-family: 'Courier New', Courier, monospace;
+/* bootstrap-darkk function not suported manually adding color to button */
+}      
+.btn-dark{
+    background-color: black;
+/* footer */
+}
+.footer {
+    padding: 10px;
+   left: 0;
+   bottom: 10;
+   width: 100%;
+   background-color:black;
+   color: white;
+   text-align: center;
+}
+
+.foh {
+    text-align: center;
+    color: #f2f2f2;
+}
+/* to seperate the button from the footer */
+pre{
+  width: 100%;
+   background-color:#333333;
+   border: none;
+}
